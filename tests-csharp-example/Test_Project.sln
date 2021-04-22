@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Project.Library", "Test.Project.Library\Test.Project.Library.csproj", "{F30F913D-41EF-4BC3-AA4F-C35B1A167232}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Project.Tests", "Test.Project.Tests\Test.Project.Tests.csproj", "{C5E5429A-6D96-4496-B5B8-CEAA014CA905}"
@@ -12,10 +14,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectNunit", "TestProjectNunit\TestProjectNunit.csproj", "{782A7C78-9F6F-4286-896E-83BD32CD6AA0}"
+EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = Test_Project.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -29,8 +30,18 @@ Global
 		{C5E5429A-6D96-4496-B5B8-CEAA014CA905}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5E5429A-6D96-4496-B5B8-CEAA014CA905}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5E5429A-6D96-4496-B5B8-CEAA014CA905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782A7C78-9F6F-4286-896E-83BD32CD6AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782A7C78-9F6F-4286-896E-83BD32CD6AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782A7C78-9F6F-4286-896E-83BD32CD6AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782A7C78-9F6F-4286-896E-83BD32CD6AA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C40FF159-1F83-4C9E-A112-B5D99DD5F4E1}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Test_Project.vsmdi
 	EndGlobalSection
 EndGlobal
